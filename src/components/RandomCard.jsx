@@ -1,8 +1,8 @@
 
 
-const RandomCard = ({ skills = [], title, description, certificateLink }) => {
+const RandomCard = ({ title, description, link }) => {
   return (
-    <div className="certificate-card max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full md:w-auto select-none random-card">
       <a href="#">
         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
           {title}
@@ -11,18 +11,9 @@ const RandomCard = ({ skills = [], title, description, certificateLink }) => {
       <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
         {description}
       </p>
-      <div className="skills-container flex flex-wrap gap-2 py-2">
-        {skills.map((skill, index) => (
-          <span
-            key={index}
-            className="skill-tag bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
-          >
-            {skill}
-          </span>
-        ))}
-      </div>
-      {certificateLink && <a
-        href={certificateLink}
+
+      {link && <a
+        href={link}
         className="inline-flex font-medium items-center text-blue-600 hover:underline"
       >
         Show Certificate

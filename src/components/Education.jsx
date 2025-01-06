@@ -3,27 +3,9 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import Separator from "./Separator";
+import { DATA } from "../data";
 
 gsap.registerPlugin(ScrollTrigger);
-
-const educationData = [
-    {
-        school: "University of Washington",
-        degree: "Bachelor of Science in Computer Science",
-        startDate: "September 2015",
-        endDate: "June 2019",
-        description:
-            "Studied computer science and software engineering. Developed software applications and systems. Graduated with a 3.9 GPA.",
-    },
-    {
-        school: "Elevation",
-        degree: "Certificate in Full-Stack Web Development",
-        startDate: "September 2015",
-        endDate: "June 2019",
-        description:
-            "Studied computer science and software engineering. Developed software applications and systems. Graduated with a 3.9 GPA.",
-    },
-];
 
 export default function Education() {
 
@@ -37,10 +19,9 @@ export default function Education() {
             ctxRef.current = gsap.context(() => {
 
                 gsap.from(cards, {
-                    x: (i) => (i % 2 === 0 ? 200 : -200),
+                    x: 200,
                     opacity: 0,
                     duration: 1,
-                    stagger: 0.3,
                     scrollTrigger: {
                         trigger: sectionRef.current,
                         start: "top 65%",
@@ -56,34 +37,30 @@ export default function Education() {
     return (
         <section id="education">
             <Separator text={"Education"} />
-            <div ref={sectionRef} className="py-12 " >
-                <div className="container px-4">
-                    <div className="space-y-12">
-                        {educationData.map((edu, index) => (
-                            <div
-                                key={index}
-                                className={`education-card flex flex-col md:flex-row items-center ${index % 2 === 0 ? "md:flex-row-reverse" : ""
-                                    }`}
-                            >
-                                <div className="md:w-1/2 p-6 bg-white rounded-lg shadow-md border dark:bg-gray-800 dark:border-gray-700">
-                                    <h3 className="text-xl font-bold text-gray-800 dark:text-white">
-                                        {edu.school}
-                                    </h3>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-                                        {edu.degree}
-                                    </p>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400">
-                                        {edu.startDate} - {edu.endDate}
-                                    </p>
-                                    <p className="mt-4 text-gray-600 dark:text-gray-300">
-                                        {edu.description}
-                                    </p>
-                                </div>
-                            </div>
-                        ))}
+            <div ref={sectionRef} className="w-full flex flex-col items-center gap-8">
+                {DATA.education.map((edu, index) => (
+                    <div
+                        key={index}
+                        className="education-card flex flex-col items-center md:flex-row md:items-start bg-white rounded-lg shadow-md border dark:bg-gray-800 dark:border-gray-700 max-w-md md:max-w-3xl"
+                    >
+                        <div className="w-full p-6">
+                            <h3 className="text-xl font-bold text-gray-800 dark:text-white text-center md:text-left">
+                                {edu.school}
+                            </h3>
+                            <p className="text-sm text-gray-500 dark:text-gray-400 mb-2 text-center md:text-left">
+                                {edu.degree}
+                            </p>
+                            <p className="text-sm text-gray-500 dark:text-gray-400 text-center md:text-left">
+                                {edu.startDate} - {edu.endDate}
+                            </p>
+                            <p className="mt-4 text-gray-600 dark:text-gray-300 text-center md:text-left">
+                                {edu.description}
+                            </p>
+                        </div>
                     </div>
-                </div>
+                ))}
             </div>
         </section>
     );
+    
 }

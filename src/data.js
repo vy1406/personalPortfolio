@@ -22,16 +22,17 @@ export const DATA = {
             startDate: "June 2019",
             endDate: null,
             length: "2 yrs 3 mos",
-            description: "Developed scalable, high-performing, and secure software solutions for Amazon's global platform. Leveraged AWS services to build and deploy cloud-based applications. Collaborated with cross-functional teams to deliver high-quality software solutions."
-        },
-        {
+            description: "Developed scalable, high-performing, and secure software solutions for Amazon's global platform. Leveraged AWS services to build and deploy cloud-based applications. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+            isCurrent: true
+          },
+          {
             company: "Microsoft",
             title: "Software Engineer Intern",
             startDate: "May 2018",
             endDate: "August 2018",
             length: "4 mos",
             description: "Developed and maintained software solutions for Microsoft's Azure platform. Worked with a team of engineers to build and deploy cloud-based applications. Collaborated with cross-functional teams to deliver high-quality software solutions."
-        }
+          }
     ],
     education: [
         {
@@ -39,15 +40,9 @@ export const DATA = {
             degree: "Bachelor of Science in Computer Science",
             startDate: "September 2015",
             endDate: "June 2019",
-            description: "Studied computer science and software engineering. Developed software applications and systems. Graduated with a 3.9 GPA."
-        },
-        {
-            school: "Elevation",
-            degree: "Certificate in Full-Stack Web Development",
-            startDate: "September 2015",
-            endDate: "June 2019",
-            description: "Studied computer science and software engineering. Developed software applications and systems. Graduated with a 3.9 GPA."
-        },
+            description:
+                "Studied computer science and software engineering. Developed software applications and systems. Graduated with a 3.9 GPA.",
+        }
     ],
     Certifications: [
         {

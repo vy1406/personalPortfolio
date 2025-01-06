@@ -7,7 +7,7 @@ export default function Footer({ toggleModal }) {
 
     return (
         <>
-            <footer className="bg-gray-900 text-white py-4">
+            <footer className="bg-gray-900 text-white py-4 mt-8">
                 <div className="container mx-auto flex justify-center gap-8">
                     <a
                         href="https://github.com/"

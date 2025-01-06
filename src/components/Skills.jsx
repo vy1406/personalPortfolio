@@ -36,9 +36,11 @@ export default function SkillsSection() {
 
   return (
     <section className="py-8" ref={sectionRef} id="skills">
-            <Separator text={"Skills"} />
-      <SkillsCard list={DATA.skills.frontEnd.list} title={DATA.skills.frontEnd.title} />
-      <SkillsCard list={DATA.skills.frontEnd.list} title={DATA.skills.frontEnd.title} />
+      <Separator text={"Skills"} />
+      <div className="w-full flex flex-wrap justify-center gap-4">
+        <SkillsCard list={DATA.skills.frontEnd.list} title={DATA.skills.frontEnd.title} />
+        <SkillsCard list={DATA.skills.frontEnd.list} title={DATA.skills.frontEnd.title} />
+      </div>
     </section>
   );
 }
