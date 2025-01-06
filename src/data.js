@@ -52,7 +52,7 @@ export const DATA = {
         {
             "company": "Freelance",
             "title": "Full Stack Developer",
-            "startDate": "April 2023",
+            "startDate": "April 23",
             "endDate": null,
             "length": "Present",
             "description": "Consulted on over 10 projects across healthcare, finance, and e-commerce. Implemented secure authentication, optimized UI responsiveness, and established robust testing infrastructures. Integrated WebRTC for real-time communication and deployed reCAPTCHA for enhanced security.",
@@ -61,8 +61,8 @@ export const DATA = {
         {
             "company": "Health Maintenance Organization",
             "title": "Front End Lead",
-            "startDate": "September 2023",
-            "endDate": "October 2024",
+            "startDate": "Sep 23",
+            "endDate": "Oct 24",
             "length": "1 yr 1 mo",
             "description": "Spearheaded micro frontends using Webpack5, reducing site load times by 50%. Delivered a healthcare system project improving efficiency by 36%. Conducted regular code reviews and introduced reusable Material UI components for improved consistency.",
             "isCurrent": false
@@ -70,8 +70,8 @@ export const DATA = {
         {
             "company": "Health Maintenance Organization",
             "title": "Full Stack Developer",
-            "startDate": "April 2021",
-            "endDate": "September 2023",
+            "startDate": "Apr 21",
+            "endDate": "Sep 23",
             "length": "2 yrs 5 mos",
             "description": "Developed end-to-end projects using .NET Core, Node.js, and React. Improved system reliability by 35% with Kafka and SSR. Created custom modules, npm packages, and set up internal libraries with JFrog and Nexus.",
             "isCurrent": false
@@ -79,8 +79,8 @@ export const DATA = {
         {
             "company": "Spectory",
             "title": "Full Stack Developer",
-            "startDate": "September 2019",
-            "endDate": "April 2021",
+            "startDate": "Sep 19",
+            "endDate": "Apr 21",
             "length": "1 yr 8 mos",
             "description": "Developed end-to-end projects using React, Angular, and Node.js while maintaining legacy projects to improve code readability and address challenges. Managed and mentored junior developers, resolved blockers, ensured smooth project delivery, and communicated with clients to gather feedback and adjust project direction as needed.",
             "isCurrent": false

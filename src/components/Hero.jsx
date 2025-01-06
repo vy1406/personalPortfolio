@@ -64,7 +64,9 @@ export default function Hero() {
 
       <div className="relative z-10 text-center md:text-left max-w-md md:max-w-lg px-4 md:px-0">
         <h1 className="text-3xl font-bold text-white mb-4">{DATA.welcomeMsg}</h1>
-        <div className="text-lg text-purple-500 mb-4 font-semibold">
+        <p className="mb-4 text-base font-normal  text-gray-400">{DATA.aboutMe}</p>
+        <div className="text-lg text-purple-500 mb-4 font-semibold" style={{ height: "3em", display: "flex", alignItems: "center", justifyContent: "center" }}
+        >
           <Typewriter
             options={{
               strings: DATA.roles,
@@ -75,7 +77,6 @@ export default function Hero() {
             }}
           />
         </div>
-        <p className="mb-4 text-base font-normal  text-gray-400">{DATA.aboutMe}</p>
       </div>
     </div>
   );
