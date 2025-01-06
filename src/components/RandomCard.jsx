@@ -4,9 +4,9 @@ const RandomCard = ({ title, description, link }) => {
   return (
     <div className="max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full md:w-auto select-none random-card">
       <a href="#">
-        <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+      <h3 className="text-xl font-bold text-gray-800 text-left dark:text-white mb-8">
           {title}
-        </h5>
+        </h3>
       </a>
       <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
         {description}
@@ -16,7 +16,7 @@ const RandomCard = ({ title, description, link }) => {
         href={link}
         className="inline-flex font-medium items-center text-blue-600 hover:underline"
       >
-        Show Certificate
+        Go there
         <svg
           className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]"
           aria-hidden="true"

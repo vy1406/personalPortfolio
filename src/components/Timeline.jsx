@@ -22,12 +22,15 @@ export default function Timelines() {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-              {exp.company}
+              {exp.title}
               {exp.isCurrent &&
                 <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                   Current
                 </span>}
             </h3>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+              {`( ${exp.company})`}
+            </p>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {exp.startDate} - {exp.endDate || "Present"} ({exp.length})
             </time>

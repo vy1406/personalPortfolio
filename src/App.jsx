@@ -23,9 +23,9 @@ function App() {
       <main className="pt-16 px-4 md:px-16">
         <Hero />
         <Timelines />
-        <Certificates />
-        <SkillsSection />
         <Education />
+        <SkillsSection />
+        <Certificates />
         <Randoms />
         <EmailModal isOpen={isModalOpen} toggleModal={(argIsOpen) => setIsModalOpen(argIsOpen)} />
         <ScrollToTopButton />
