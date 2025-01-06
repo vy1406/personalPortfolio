@@ -25,14 +25,16 @@ const educationData = [
 ];
 
 export default function Education() {
+
     const sectionRef = useRef(null);
- const ctxRef = useRef(null);
+    const ctxRef = useRef(null);
+
     useLayoutEffect(() => {
         const cards = sectionRef.current?.querySelectorAll(".education-card");
 
         if (cards) {
-            ctxRef.current = gsap.context(() => {   
-            
+            ctxRef.current = gsap.context(() => {
+
                 gsap.from(cards, {
                     x: (i) => (i % 2 === 0 ? 200 : -200),
                     opacity: 0,
@@ -51,7 +53,7 @@ export default function Education() {
     }, []);
 
     return (
-        <div ref={sectionRef} className="py-12 bg-gray-100 dark:bg-gray-900" id="education">
+        <div ref={sectionRef} className="py-12 " id="education">
             <div className="container px-4">
                 <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
                     Education
