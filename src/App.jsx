@@ -10,6 +10,7 @@ import Certificates from './components/Certificates'
 import Randoms from './components/Random'
 import Footer from './components/Footer'
 import EmailModal from './components/EmailModal'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         </section>
         <Footer toggleModal={(argIsOpen) => setIsModalOpen(argIsOpen)} />
         <EmailModal isOpen={isModalOpen} toggleModal={(argIsOpen) => setIsModalOpen(argIsOpen)} />
+          <ScrollToTopButton />
       </main>
     </>
   )
