@@ -3,7 +3,7 @@ import CertificationCard from "./CertificationCard";
 
 const Certificates = () => {
     return (
-        <div>
+        <div id="certificates">
             <CertificationCard
                 certificateLink={"#"}
                 description={"my description, this course was about learning how to do something or not"}

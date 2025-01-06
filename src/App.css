@@ -1,4 +1,12 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
 :root {
   --background: #06021d;
   --foreground: #171717;
@@ -21,7 +29,8 @@ body {
 #mobilemenu {
   z-index: 1;
   position: absolute;
-  top: 41px;
+  top: 53px;
+  height: fit-content
 }
 
 
