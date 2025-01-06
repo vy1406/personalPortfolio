@@ -8,17 +8,16 @@ const routes = [
     link: '#experience',
   },
   {
-    name: 'Certificates',
-    link: '#certificates',
+    name: 'Education',
+    link: '#education',
   },
   {
     name: 'Skills',
     link: '#skills',
   },
   {
-    name: 'Education',
-    link: '#education',
-
+    name: 'Certificates',
+    link: '#certificates',
   },
   {
     name: 'Random',

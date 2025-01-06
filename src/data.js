@@ -1,4 +1,32 @@
 import ReactIcon from "./assets/react.svg";
+import NextJs from "./assets/nextjs-icon.svg";
+import AngularIcon from "./assets/angular-icon.svg";
+import VueIcon from "./assets/vue.svg";
+import ReduxIcon from "./assets/redux.svg";
+import TailwindIcon from "./assets/tailwindcss-icon.svg";
+import MaterialUi from "./assets/material-ui.svg";
+import PWA from "./assets/pwa.svg";
+import Mobx from "./assets/mobx.svg";
+
+import NodeIcon from './assets/nodejs-icon.svg';
+import ExpressIcon from "./assets/express.svg";
+import DotNet from "./assets/dotnet.svg";
+import Spring from "./assets/spring-icon.svg";
+import GoIcon from "./assets/gopher.svg";
+import NestJs from "./assets/nestjs.svg";
+
+import MongoDB from "./assets/mongodb-icon.svg";
+import Sqlite from "./assets/sqlite.svg";
+import MySql from "./assets/mysql-icon.svg";
+import Supabase from "./assets/supabase-icon.svg";
+import DynamoDB from "./assets/aws-dynamodb.svg";
+import PostgreSQL from "./assets/postgresql.svg";
+
+import Docker from "./assets/docker-icon.svg";
+import Kubernetes from "./assets/kubernetes.svg";
+import Lambda from "./assets/aws-lambda.svg";
+import Azure from "./assets/microsoft-azure.svg";
+import Git from "./assets/git-icon.svg";
 
 export const DATA = {
     aboutMe: "AWS Certified | Full-stack developer skilled in seamless user experiences, efficient backend systems, & cloud integration. Proficient in React & Node.js. Delivering solutions that drive growth & elevate platforms.",
@@ -166,35 +194,35 @@ export const DATA = {
                 },
                 {
                     name: "NextJS",
-                    src: ReactIcon
+                    src: NextJs
                 },
                 {
                     name: "Angular",
-                    src: ReactIcon
+                    src: AngularIcon
                 },
                 {
                     name: "Vue",
-                    src: ReactIcon
+                    src: VueIcon
                 },
                 {
                     name: "Redux",
-                    src: ReactIcon
+                    src: ReduxIcon
                 },
                 {
                     name: "Tailwind",
-                    src: ReactIcon
+                    src: TailwindIcon
                 },
                 {
                     name: "Material UI (MUI)",
-                    src: ReactIcon
+                    src: MaterialUi
                 },
                 {
                     name: "PWA",
-                    src: ReactIcon
+                    src: PWA
                 },
                 {
                     name: "MobX",
-                    src: ReactIcon
+                    src: Mobx
                 }
             ]
         },
@@ -203,27 +231,27 @@ export const DATA = {
             "list": [
                 {
                     "name": "Node.js",
-                    "src": ReactIcon
+                    "src": NodeIcon
                 },
                 {
                     "name": "Express.js",
-                    "src": ReactIcon
+                    "src": ExpressIcon
                 },
                 {
                     "name": ".NET Core",
-                    "src": ReactIcon
+                    "src": DotNet
                 },
                 {
                     "name": "Nest.js",
-                    "src": ReactIcon
+                    "src": NestJs
                 },
                 {
                     "name": "Spring",
-                    "src": ReactIcon
+                    "src": Spring
                 },
                 {
                     "name": "GoLang",
-                    "src": ReactIcon
+                    "src": GoIcon
                 }
             ]
         },
@@ -231,24 +259,28 @@ export const DATA = {
             "title": "Databases",
             "list": [
                 {
-                    "name": "SQL Server",
-                    "src": ReactIcon
+                    "name": "MySql",
+                    "src": MySql
+                },
+                {
+                    "name": "SQLite",
+                    "src": Sqlite
                 },
                 {
                     "name": "PostgreSQL",
-                    "src": ReactIcon
+                    "src": PostgreSQL
                 },
                 {
                     "name": "MongoDB",
-                    "src": ReactIcon
+                    "src": MongoDB
                 },
                 {
                     "name": "Supabase",
-                    "src": ReactIcon
+                    "src": Supabase
                 },
                 {
                     "name": "DynamoDB",
-                    "src": ReactIcon
+                    "src": DynamoDB
                 }
             ]
         },
@@ -257,23 +289,23 @@ export const DATA = {
             "list": [
                 {
                     "name": "Docker",
-                    "src": ReactIcon
+                    "src": Docker
                 },
                 {
                     "name": "Kubernetes",
-                    "src": ReactIcon
+                    "src": Kubernetes
                 },
                 {
                     "name": "AWS",
-                    "src": ReactIcon
+                    "src": Lambda
                 },
                 {
                     "name": "Azure DevOps",
-                    "src": ReactIcon
+                    "src": Azure
                 },
                 {
                     "name": "Git",
-                    "src": ReactIcon
+                    "src": Git
                 }
             ]
         },

@@ -19,7 +19,7 @@ export default function SkillsCard({ list, title }) {
               alt={skill.name}
               width={24}
               height={24}
-              className="rounded-full"
+              className="rounded-full h-full"
             />
           </div>
           <h2 className="text-sm font-medium text-gray-800 dark:text-gray-200">
