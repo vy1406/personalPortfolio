@@ -32,10 +32,13 @@ export const DATA = {
     aboutMe: "AWS Certified | Full-stack developer skilled in seamless user experiences, efficient backend systems, & cloud integration. Proficient in React & Node.js. Delivering solutions that drive growth & elevate platforms.",
     welcomeMsg: "Vladimir Elisavetsky",
     roles: [
-        "Full-stack Developer",
-        "Software Engineer",
-        "AWS Certified Developer",
-        "Something funny"
+        "Debugger of Bugs Nobody Can Reproduce",
+        "Destroyer of Console Logs",
+        "Debugging is like being a detective in a crime movie where you're also the murderer.",
+        "Months of testing and bug fixes can save you hours of planning.",
+        "I don’t always test my code, but when I do, it’s in production.",
+        "Give a man a program, and he’ll be frustrated for a day. Teach a man to program, and he’ll be frustrated for a lifetime.",
+        "Why waste 2 hours reading documentation when you can spend 4 days debugging through trial and error?"
     ],
     links: {
         github: "githubLink",
@@ -142,7 +145,7 @@ export const DATA = {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3f934552-676a-4af5-a35c-152ec6338289.pdf",
             "title": "Angular Core (Angular 16)"
         },
-       
+
         {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-573cd851-9109-4020-a84d-bfadedcf9335.pdf",
             "title": "JavaScript: Weird Parts"
@@ -167,7 +170,7 @@ export const DATA = {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/image/UC-e12bd914-1db0-48ad-b491-0e25c665d097.jpg",
             "title": "Microservices Architecture"
         }
-    ]    ,
+    ],
     education: [
         {
             "school": "Netanya College",
