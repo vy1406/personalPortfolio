@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
+import Separator from "./Separator";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,36 +54,36 @@ export default function Education() {
     }, []);
 
     return (
-        <div ref={sectionRef} className="py-12 " id="education">
-            <div className="container px-4">
-                <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
-                    Education
-                </h2>
-                <div className="space-y-12">
-                    {educationData.map((edu, index) => (
-                        <div
-                            key={index}
-                            className={`education-card flex flex-col md:flex-row items-center ${index % 2 === 0 ? "md:flex-row-reverse" : ""
-                                }`}
-                        >
-                            <div className="md:w-1/2 p-6 bg-white rounded-lg shadow-md border dark:bg-gray-800 dark:border-gray-700">
-                                <h3 className="text-xl font-bold text-gray-800 dark:text-white">
-                                    {edu.school}
-                                </h3>
-                                <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-                                    {edu.degree}
-                                </p>
-                                <p className="text-sm text-gray-500 dark:text-gray-400">
-                                    {edu.startDate} - {edu.endDate}
-                                </p>
-                                <p className="mt-4 text-gray-600 dark:text-gray-300">
-                                    {edu.description}
-                                </p>
+        <section id="education">
+            <Separator text={"Education"} />
+            <div ref={sectionRef} className="py-12 " >
+                <div className="container px-4">
+                    <div className="space-y-12">
+                        {educationData.map((edu, index) => (
+                            <div
+                                key={index}
+                                className={`education-card flex flex-col md:flex-row items-center ${index % 2 === 0 ? "md:flex-row-reverse" : ""
+                                    }`}
+                            >
+                                <div className="md:w-1/2 p-6 bg-white rounded-lg shadow-md border dark:bg-gray-800 dark:border-gray-700">
+                                    <h3 className="text-xl font-bold text-gray-800 dark:text-white">
+                                        {edu.school}
+                                    </h3>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                                        {edu.degree}
+                                    </p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                                        {edu.startDate} - {edu.endDate}
+                                    </p>
+                                    <p className="mt-4 text-gray-600 dark:text-gray-300">
+                                        {edu.description}
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

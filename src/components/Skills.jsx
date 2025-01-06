@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import SkillsCard from "./SkillCard";
 import { DATA } from "../data";
+import Separator from "./Separator";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,6 +36,7 @@ export default function SkillsSection() {
 
   return (
     <section className="py-8" ref={sectionRef} id="skills">
+            <Separator text={"Skills"} />
       <SkillsCard list={DATA.skills.frontEnd.list} title={DATA.skills.frontEnd.title} />
       <SkillsCard list={DATA.skills.frontEnd.list} title={DATA.skills.frontEnd.title} />
     </section>
