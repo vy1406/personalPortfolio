@@ -24,7 +24,7 @@ export default function SkillsSection() {
           stagger: 0.3,
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 65%",
+            start: "top 80%",
             toggleActions: "play none none none",
           },
         });
