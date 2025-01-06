@@ -161,28 +161,40 @@ export const DATA = {
             title: "Front end",
             "list": [
                 {
-                    "name": "React",
-                    "src": ReactIcon
+                    name: "React",
+                    src: ReactIcon
                 },
                 {
-                    "name": "Angular",
-                    "src": ReactIcon
+                    name: "NextJS",
+                    src: ReactIcon
                 },
                 {
-                    "name": "Vue",
-                    "src": ReactIcon
+                    name: "Angular",
+                    src: ReactIcon
                 },
                 {
-                    "name": "TypeScript",
-                    "src": ReactIcon
+                    name: "Vue",
+                    src: ReactIcon
                 },
                 {
-                    "name": "Redux",
-                    "src": ReactIcon
+                    name: "Redux",
+                    src: ReactIcon
                 },
                 {
-                    "name": "Material UI (MUI)",
-                    "src": ReactIcon
+                    name: "Tailwind",
+                    src: ReactIcon
+                },
+                {
+                    name: "Material UI (MUI)",
+                    src: ReactIcon
+                },
+                {
+                    name: "PWA",
+                    src: ReactIcon
+                },
+                {
+                    name: "MobX",
+                    src: ReactIcon
                 }
             ]
         },
@@ -231,7 +243,7 @@ export const DATA = {
                     "src": ReactIcon
                 },
                 {
-                    "name": "Redis",
+                    "name": "Supabase",
                     "src": ReactIcon
                 },
                 {
@@ -264,7 +276,7 @@ export const DATA = {
                     "src": ReactIcon
                 }
             ]
-        }
+        },
     },
     randoms: [
         {
