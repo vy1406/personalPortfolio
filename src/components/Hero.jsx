@@ -19,7 +19,7 @@ export default function Hero() {
           certificateRef.current,
           { x: "-100%", opacity: 0 },
           {
-            x: 20,
+            x: 0,
             opacity: 1,
             duration: 1.5,
             ease: "power2.out",
@@ -40,7 +40,7 @@ export default function Hero() {
 
       <div
         ref={certificateRef}
-        className="absolute z-10 top-4 left-4 md:static md:block md:w-36 w-20"
+        className="absolute z-0 top-4 left-4 md:static md:block md:w-36 w-20"
       >
         <img
           src={awsCertificate}
@@ -62,9 +62,9 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative z-20 text-center md:text-left max-w-md md:max-w-lg px-4 md:px-0">
+      <div className="relative z-10 text-center md:text-left max-w-md md:max-w-lg px-4 md:px-0">
         <h1 className="text-3xl font-bold text-white mb-4">{DATA.welcomeMsg}</h1>
-        <div className="text-lg text-gray-200 mb-4">
+        <div className="text-lg text-purple-500 mb-4 font-semibold">
           <Typewriter
             options={{
               strings: DATA.roles,
@@ -73,7 +73,7 @@ export default function Hero() {
             }}
           />
         </div>
-        <p className="text-sm text-gray-300">{DATA.aboutMe}</p>
+        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{DATA.aboutMe}</p>
       </div>
     </div>
   );

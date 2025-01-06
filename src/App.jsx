@@ -8,13 +8,15 @@ import NavBar from './components/NavBar'
 import Education from './components/Education'
 import Separator from './components/Separator'
 import Certificates from './components/Certificates'
+import Randoms from './components/Random'
+import Footer from './components/Footer'
 
 
 function App() {
 
   return (
     <>
-      <header className="sticky z-10 top-0">
+      <header className="sticky z-50 top-0">
         <NavBar />
       </header>
       <main className='pt-16'>
@@ -35,6 +37,11 @@ function App() {
           <Separator text={"Education"} />
           <Education />
         </section>
+        <section>
+          <Separator text={"Random"} />
+          <Randoms />
+        </section>
+        <Footer />
       </main>
     </>
   )

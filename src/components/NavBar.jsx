@@ -17,7 +17,7 @@ const NavBar = () => {
   useClickOutside(mobileMenuRef, handleCloseMenu);
 
   return (
-    <div className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200" >
+    <div className="sticky top-0 z-50 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200" >
       <div className="flex w-full items-center px-4 py-2">
         <div className="hidden w-full flex-row justify-between text-xl font-extralight md:flex">
           <div className="flex gap-4">

@@ -2,7 +2,7 @@ import ReactIcon from "./assets/react.svg";
 
 export const DATA = {
     aboutMe: "AWS Certified | Full-stack developer skilled in seamless user experiences, efficient backend systems, & cloud integration. Proficient in React & Node.js. Delivering solutions that drive growth & elevate platforms.",
-    welcomeMsg: "Hi, I'm Vladimir Elisavetsky",
+    welcomeMsg: "Vladimir Elisavetsky",
     roles: [
         "Full-stack Developer",
         "Software Engineer",
