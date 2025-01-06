@@ -172,10 +172,10 @@ export const DATA = {
         },
         {
             "school": "Elevation School",
-            "degree": "Full-Stack Bootcamp",
+            "degree": "Full-Stack Certified",
             "startDate": "January 2019",
             "endDate": "April 2019",
-            "description": "Completed an intensive bootcamp specializing in the MERN stack (MongoDB, Express.js, React, Node.js), developing multiple end-to-end projects showcasing proficiency in OOP principles."
+            "description": "Completed an intensive bootcamp specializing in the MERN stack, developing multiple end-to-end projects showcasing proficiency in OOP principles."
         }
     ],
     skills: {

@@ -45,10 +45,10 @@ export default function Education() {
                     >
                         <div className="w-full p-6">
                             <h3 className="text-xl font-bold text-white text-center md:text-left">
-                                {edu.school}
+                                {edu.degree}
                             </h3>
                             <p className="text-sm text-gray-400 mb-2 text-center md:text-left">
-                                {edu.degree}
+                                {edu.school}
                             </p>
                             <p className="text-sm text-gray-400 text-center md:text-left">
                                 {edu.startDate} - {edu.endDate}
