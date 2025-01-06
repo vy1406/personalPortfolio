@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import Hero from './components/Hero'
 import './App.css'
 import SkillsSection from './components/Skills'
@@ -10,9 +9,11 @@ import Separator from './components/Separator'
 import Certificates from './components/Certificates'
 import Randoms from './components/Random'
 import Footer from './components/Footer'
+import EmailModal from './components/EmailModal'
 
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
@@ -41,7 +42,8 @@ function App() {
           <Separator text={"Random"} />
           <Randoms />
         </section>
-        <Footer />
+        <Footer toggleModal={(argIsOpen) => setIsModalOpen(argIsOpen)} />
+        <EmailModal isOpen={isModalOpen} toggleModal={(argIsOpen) => setIsModalOpen(argIsOpen)} />
       </main>
     </>
   )
