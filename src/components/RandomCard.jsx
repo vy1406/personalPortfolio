@@ -3,11 +3,9 @@
 const RandomCard = ({ title, description, link }) => {
   return (
     <div className="max-w-md p-6  border  rounded-lg shadow bg-gray-800 border-gray-700 w-full md:w-auto select-none random-card">
-      <a href="#">
       <h3 className="text-xl font-bold text-left text-white mb-8">
           {title}
         </h3>
-      </a>
       <p className="mb-3 font-normal text-gray-400">
         {description}
       </p>

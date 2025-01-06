@@ -7,7 +7,7 @@ export default function Timelines() {
   return (
     <section id="experience">
       <Separator text={"Experience"} />
-      <ol className="relative border-s border-gray-700 m-10" >
+      <ol className="relative border-s border-gray-700 md:m-10 m-4" >
         {DATA.experience.map((exp, index) => (
           <li className="mb-10 ms-6" key={index}>
             <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">

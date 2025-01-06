@@ -43,7 +43,7 @@ export const DATA = {
     links: {
         github: "https://github.com/vy1406",
         linkedin: "https://www.linkedin.com/in/vladimir-elisavetsky/",
-        cv: "https://drive.google.com/file/d/1nVO6Ze_QMcgMGGWVhUvxIn_VVWxOU3bA/view?usp=sharing"
+        cv: "https://drive.google.com/file/d/1E0FO1Mc4w4FzApyPbpButEgT5RMPHMld/view?usp=sharing"
     },
     contact: {
         email: "vladimir.elisavetsky@gmail.com"
@@ -59,7 +59,7 @@ export const DATA = {
             "isCurrent": true
         },
         {
-            "company": "Health Maintenance Organization",
+            "company": "Leading Healthcare Provider",
             "title": "Front End Lead",
             "startDate": "Sep 23",
             "endDate": "Oct 24",
@@ -68,7 +68,7 @@ export const DATA = {
             "isCurrent": false
         },
         {
-            "company": "Health Maintenance Organization",
+            "company": "Leading Healthcare Provider",
             "title": "Full Stack Developer",
             "startDate": "Apr 21",
             "endDate": "Sep 23",
