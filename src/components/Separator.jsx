@@ -36,12 +36,12 @@ export default function Separator({ text }) {
   return (
     <div className="py-8" ref={sectionRef}>
       <div className="flex flex-col md:flex-row items-center">
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 md:mb-0 md:mr-4">
+        <h3 className="text-lg font-semibold  text-white mb-4 md:mb-0 md:mr-4">
           {text}
         </h3>
         <div
           ref={lineRef}
-          className="h-[2px] bg-gray-400 dark:bg-gray-600 flex-grow w-full"
+          className="h-[2px] bg-gray-600 flex-grow w-full"
         />
       </div>
     </div>

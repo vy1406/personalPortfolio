@@ -41,19 +41,19 @@ export default function Education() {
                 {DATA.education.map((edu, index) => (
                     <div
                         key={index}
-                        className="education-card flex flex-col items-center md:flex-row md:items-start bg-white rounded-lg shadow-md border dark:bg-gray-800 dark:border-gray-700 max-w-md md:max-w-3xl"
+                        className="education-card flex flex-col items-center md:flex-row md:items-start  rounded-lg shadow-md bg-gray-800 border-gray-700 max-w-md md:max-w-3xl"
                     >
                         <div className="w-full p-6">
-                            <h3 className="text-xl font-bold text-gray-800 dark:text-white text-center md:text-left">
+                            <h3 className="text-xl font-bold text-white text-center md:text-left">
                                 {edu.school}
                             </h3>
-                            <p className="text-sm text-gray-500 dark:text-gray-400 mb-2 text-center md:text-left">
+                            <p className="text-sm text-gray-400 mb-2 text-center md:text-left">
                                 {edu.degree}
                             </p>
-                            <p className="text-sm text-gray-500 dark:text-gray-400 text-center md:text-left">
+                            <p className="text-sm text-gray-400 text-center md:text-left">
                                 {edu.startDate} - {edu.endDate}
                             </p>
-                            <p className="mt-4 text-gray-600 dark:text-gray-300 text-center md:text-left">
+                            <p className="mt-4 text-gray-300 text-center md:text-left">
                                 {edu.description}
                             </p>
                         </div>

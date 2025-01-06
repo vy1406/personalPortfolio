@@ -9,15 +9,15 @@
 
 :root {
   --background: #06021d;
-  --foreground: #171717;
+  --foreground: #ededed;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
       --background: #06021d;
       --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);

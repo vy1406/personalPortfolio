@@ -41,9 +41,9 @@ export const DATA = {
         "Why waste 2 hours reading documentation when you can spend 4 days debugging through trial and error?"
     ],
     links: {
-        github: "githubLink",
-        linkedin: "linkedinLink",
-        cv: "cvLink"
+        github: "https://github.com/vy1406",
+        linkedin: "https://www.linkedin.com/in/vladimir-elisavetsky/",
+        cv: "https://drive.google.com/file/d/1nVO6Ze_QMcgMGGWVhUvxIn_VVWxOU3bA/view?usp=sharing"
     },
     contact: {
         email: "vladimir.elisavetsky@gmail.com"
@@ -78,20 +78,11 @@ export const DATA = {
         },
         {
             "company": "Spectory",
-            "title": "Project Lead Developer",
-            "startDate": "December 2020",
-            "endDate": "April 2021",
-            "length": "5 mos",
-            "description": "Managed and mentored junior developers. Resolved blockers and ensured smooth project delivery. Communicated with clients to gather feedback and adjusted project direction as needed.",
-            "isCurrent": false
-        },
-        {
-            "company": "Spectory",
             "title": "Full Stack Developer",
             "startDate": "September 2019",
-            "endDate": "December 2020",
-            "length": "1 yr 3 mos",
-            "description": "Developed end-to-end projects using React, Angular, and Node.js. Maintained legacy projects, improving code readability and addressing challenges.",
+            "endDate": "April 2021",
+            "length": "1 yr 8 mos",
+            "description": "Developed end-to-end projects using React, Angular, and Node.js while maintaining legacy projects to improve code readability and address challenges. Managed and mentored junior developers, resolved blockers, ensured smooth project delivery, and communicated with clients to gather feedback and adjust project direction as needed.",
             "isCurrent": false
         }
     ],

@@ -2,8 +2,8 @@
 
 const CertificationCard = ({ title, certificateLink }) => {
     return (
-      <div className="certificate-card max-w-md p-2 md:p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <h5 className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+      <div className="certificate-card max-w-md p-2 md:p-6 border border-gray-700 rounded-lg shadow bg-gray-800">
+          <h5 className="mb-4 text-base font-normal  text-gray-400">
             {title}
           </h5>
         

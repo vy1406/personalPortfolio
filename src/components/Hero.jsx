@@ -75,7 +75,7 @@ export default function Hero() {
             }}
           />
         </div>
-        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{DATA.aboutMe}</p>
+        <p className="mb-4 text-base font-normal  text-gray-400">{DATA.aboutMe}</p>
       </div>
     </div>
   );

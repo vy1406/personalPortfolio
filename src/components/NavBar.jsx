@@ -1,6 +1,7 @@
 
 import React, { useRef, useState } from 'react';
 import useClickOutside from '../hooks/useClickOutside';
+import { DATA } from '../data';
 
 const routes = [
   {
@@ -40,6 +41,10 @@ const NavBar = () => {
   useClickOutside(mobileMenuRef, handleCloseMenu);
 
 
+  const onDownloadCv = () => {
+    window.open(DATA.links.cv, '_blank');
+  }
+
   return (
     <div className="sticky top-0 z-50 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200" >
       <div className="flex w-full items-center px-4 py-2">
@@ -49,7 +54,7 @@ const NavBar = () => {
               <a
                 key={index}
                 href={route.link}
-                className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+                className="flex items-center mb-1 text-lg font-semibold  text-white"
               >
                 {route.name}
               </a>
@@ -59,7 +64,7 @@ const NavBar = () => {
           <div>
             <button
               className="py-2 px-2 text-sm font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300"
-              onClick={() => handleCloseMenu()}
+              onClick={() => onDownloadCv()}
             >
               CV
             </button>
@@ -89,7 +94,7 @@ const NavBar = () => {
           </div>
           <button
             className="py-2 px-2 text-sm font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300"
-            onClick={() => handleCloseMenu()}
+            onClick={() => onDownloadCv()}
           >
             CV
           </button>
@@ -103,7 +108,7 @@ const NavBar = () => {
         <div
           ref={mobileMenuRef}
           id="mobilemenu"
-          className="bg-white border-gray-200 dark:bg-gray-900 fixed inset-0 z-70 p-4 md:hidden "
+          className=" border-gray-200 bg-gray-900 fixed inset-0 z-70 p-4 md:hidden "
         >
           <div className="flex flex-col gap-4">
             <ul className="space-y-4">
@@ -111,7 +116,7 @@ const NavBar = () => {
                 <li key={index}>
                   <a
                     href={route.link}
-                    className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 dark:text-white dark:hover:bg-gray-700 dark:hover:text-blue-500"
+                    className="block py-2 px-3  border-b border-gray-100  md:hover:bg-transparent md:border-0 md:hover:text-blue-600 text-white hover:bg-gray-700 hover:text-blue-500"
                     onClick={() => handleCloseMenu()}
                   >
                     {route.name}
