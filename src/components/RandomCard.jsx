@@ -14,6 +14,7 @@ const RandomCard = ({ title, description, link }) => {
 
       {link && <a
         href={link}
+        target="_blank"
         className="inline-flex font-medium items-center text-blue-600 hover:underline"
       >
         Go there
