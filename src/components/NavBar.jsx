@@ -40,8 +40,12 @@ const NavBar = () => {
 
   useClickOutside(mobileMenuRef, handleCloseMenu);
 
-
   const onDownloadCv = () => {
+    gtag('event', 'click', {
+      event_category: 'engagement',
+      event_label: 'download_cv',
+    });
+
     window.open(DATA.links.cv, '_blank');
   }
 

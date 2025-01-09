@@ -180,7 +180,7 @@ export const DATA = {
     ],
     skills: {
         frontEnd: {
-            title: "Front end",
+            title: "Front End",
             "list": [
                 {
                     name: "React",
@@ -221,7 +221,7 @@ export const DATA = {
             ]
         },
         "backEnd": {
-            "title": "Back end",
+            "title": "Back End",
             "list": [
                 {
                     "name": "Node.js",
