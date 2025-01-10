@@ -29,7 +29,7 @@ export default function Timelines() {
                 </span>}
             </h3>
             <p className="mb-4 text-base font-normal text-gray-400">
-              {`( ${exp.company} )`}
+              {`${exp.company}`}
             </p>
             <time className="block mb-2 text-sm font-normal leading-none  text-gray-500">
               {exp.startDate} - {exp.endDate || "Present"} ({exp.length})

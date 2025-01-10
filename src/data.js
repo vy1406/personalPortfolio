@@ -59,7 +59,7 @@ export const DATA = {
             "isCurrent": true
         },
         {
-            "company": "Leading Healthcare Provider",
+            "company": "Leading Healthcare Provider ( Maccabi )",
             "title": "Front End Lead",
             "startDate": "Sep 23",
             "endDate": "Oct 24",
@@ -68,7 +68,7 @@ export const DATA = {
             "isCurrent": false
         },
         {
-            "company": "Leading Healthcare Provider",
+            "company": "Leading Healthcare Provider ( Maccabi )",
             "title": "Full Stack Developer",
             "startDate": "Apr 21",
             "endDate": "Sep 23",
