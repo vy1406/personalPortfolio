@@ -306,6 +306,11 @@ export const DATA = {
     },
     randoms: [
         {
+            "description": "Designed a reusable template for uploading small and large files to AWS S3. The template handles progress bar updates, chunked uploads, and serverless deployment, ensuring scalability and simplicity. Read the full walkthrough in my Medium article!",
+            "title": "AWS S3 Upload Template",
+            "link": "https://vladimir-elistavetski.medium.com/uploading-small-and-large-files-to-aws-s3-a-walkthrough-c10393e53ac1"
+        },
+        {
             "description": "Mentored seven aspiring developers, guiding them from foundational learning to securing professional roles. Helped them gain hands-on experience and build real-world projects.",
             "title": "Mentorship",
             "link": ""
@@ -324,7 +329,7 @@ export const DATA = {
             "description": "Actively volunteering in Calgary local projects, including CalgaryCrafters and Calgary Projects Free Developers, to collaborate on community-driven software solutions.",
             "title": "Community Volunteering",
             "link": ""
-        },
+        }
     ],
 
 }
