@@ -43,47 +43,46 @@ export const DATA = {
     links: {
         github: "https://github.com/vy1406",
         linkedin: "https://www.linkedin.com/in/vladimir-elisavetsky/",
-        cv: "https://drive.google.com/file/d/1E0FO1Mc4w4FzApyPbpButEgT5RMPHMld/view?usp=sharing"
+        cv: "https://drive.google.com/file/d/1Baxf4RjydHXrGxN2HajIO6lBQRbdoYDK/view?usp=sharing"
     },
     contact: {
         email: "vladimir.elisavetsky@gmail.com"
     },
     experience: [
         {
-            "company": "Freelance",
-            "title": "Full Stack Developer",
-            "startDate": "April 23",
-            "endDate": null,
-            "length": "Present",
-            "description": "Consulted on over 10 projects across healthcare, finance, and e-commerce. Implemented secure authentication, optimized UI responsiveness, and established robust testing infrastructures. Integrated WebRTC for real-time communication and deployed reCAPTCHA for enhanced security.",
-            "isCurrent": true
+            company: "Freelance/Self-Employed",
+            title: "Full Stack Developer",
+            startDate: "April 2023",
+            endDate: "Present",
+            length: "Present",
+            description: "Consulted on over 10 projects across healthcare, finance, and e-commerce sectors. Implemented secure authentication with MSAL, eliminating password-based logins and enhancing user experience by 50%. Optimized UI responsiveness by 30% by integrating Material UI and Tailwind CSS. Deployed WebRTC solutions to reduce latency by 50%. Utilized AWS services for cloud scalability and efficiency. Integrated Google Analytics to track and analyze user engagement, leading to a 25% increase in data-driven decisions. Conducted workshops on best coding practices and security improvements, enhancing team collaboration and code quality.",
+            isCurrent: true
         },
         {
-            "company": "Leading Healthcare Provider ( Maccabi )",
-            "title": "Front End Lead",
-            "startDate": "Sep 23",
-            "endDate": "Oct 24",
-            "length": "1 yr 1 mo",
-            "description": "Spearheaded micro frontends using Webpack5, reducing site load times by 50%. Delivered a healthcare system project improving efficiency by 36%. Conducted regular code reviews and introduced reusable Material UI components for improved consistency.",
-            "isCurrent": false
+            company: "eWave (Contracted to Leading Healthcare Provider)",
+            title: "Front-End Technical Lead",
+            startDate: "Sep 2023",
+            endDate: "Oct 2024",
+            length: "1 yr 1 mo",
+            description: "Led the transition to micro frontends using Webpack5, reducing site build times by 50% and optimizing loading speeds from 15MB to 2.4MB. Introduced Progressive Web Applications (PWAs) to allow offline data access for field doctors, enhancing operational efficiency by 35%. Spearheaded migration to Next.js, achieving a 40% boost in response time. Conducted regular code reviews and introduced reusable Material UI components for improved consistency. Provided technical mentorship to junior developers and established documentation guidelines to improve onboarding efficiency.",
+            isCurrent: false
         },
         {
-            "company": "Leading Healthcare Provider ( Maccabi )",
-            "title": "Full Stack Developer",
-            "startDate": "Apr 21",
-            "endDate": "Sep 23",
-            "length": "2 yrs 5 mos",
-            "description": "Developed end-to-end projects using .NET Core, Node.js, and React. Improved system reliability by 35% with Kafka and SSR. Created custom modules, npm packages, and set up internal libraries with JFrog and Nexus.",
-            "isCurrent": false
+            company: "eWave (Contracted to Leading Healthcare Provider)",
+            title: "Full Stack Developer",
+            startDate: "Apr 2021",
+            endDate: "Sep 2023",
+            length: "2 yrs 5 mos",
+            description: "Developed and maintained full-stack solutions using .NET Core, Node.js, and React. Improved system reliability by 35% with Server-Side Rendering (SSR) and Kafka. Established robust CI/CD pipelines to streamline deployment processes. Developed custom modules and npm packages, contributing to internal libraries with JFrog and Nexus. Successfully refactored legacy code to improve performance and maintainability, reducing technical debt by 20%. Collaborated closely with product owners to define project requirements and deliver feature-rich applications.",
+            isCurrent: false
         },
         {
-            "company": "Spectory",
-            "title": "Full Stack Developer",
-            "startDate": "Sep 19",
-            "endDate": "Apr 21",
-            "length": "1 yr 8 mos",
-            "description": "Developed end-to-end projects using React, Angular, and Node.js while maintaining legacy projects to improve code readability and address challenges. Managed and mentored junior developers, resolved blockers, ensured smooth project delivery, and communicated with clients to gather feedback and adjust project direction as needed.",
-            "isCurrent": false
+            company: "Spectory",
+            title: "Full Stack Developer",
+            startDate: "Dec 2020",
+            endDate: "Apr 2021",
+            length: "1 yr 8 mos",
+            description: "Led two projects from inception to delivery, ensuring alignment with client goals and timelines. Developed scalable and maintainable solutions using React, Angular, and Node.js. Mentored junior developers, fostering best coding practices and problem-solving skills. Collaborated with cross-functional teams to enhance UI/UX designs, ensuring customer satisfaction. Researched and implemented performance optimizations that improved app loading times by 25%."
         }
     ],
 
