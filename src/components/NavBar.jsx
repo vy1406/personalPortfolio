@@ -66,12 +66,12 @@ const NavBar = () => {
 
           </div>
           <div>
-            <button
+            {/* <button
               className="py-2 px-2 text-sm font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300"
               onClick={() => onDownloadCv()}
             >
               CV
-            </button>
+            </button> */}
 
           </div>
         </div>
