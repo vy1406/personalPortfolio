@@ -92,6 +92,10 @@ export const DATA = {
             "title": "NGINX: Intro"
         },
         {
+            "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-60ef4236-ea00-404a-9dfb-60bc78c7ac98.pdf",
+            "title": "Microservices | .NET | Next.js"
+        },
+        {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-36fee718-7d7b-4f2c-ad4d-414807f6dfc5.pdf",
             "title": "ES6, ES7 & ES8"
         },
@@ -135,7 +139,10 @@ export const DATA = {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3f934552-676a-4af5-a35c-152ec6338289.pdf",
             "title": "Angular Core (Angular 16)"
         },
-
+        {
+            "certificateLink": "https://udemy-certificate.s3.amazonaws.com/image/UC-60ef4236-ea00-404a-9dfb-60bc78c7ac98.jpg",
+            "title": "Multithreading & Asynchronous | C#/.NET"
+        },
         {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-573cd851-9109-4020-a84d-bfadedcf9335.pdf",
             "title": "JavaScript: Weird Parts"
@@ -325,9 +332,14 @@ export const DATA = {
             "link": "https://vladimir-elistavetski.medium.com/simplifying-microfrontends-events-425685c97789"
         },
         {
-            "description": "Actively volunteering in Calgary local projects, including CalgaryCrafters and Calgary Projects Free Developers, to collaborate on community-driven software solutions.",
-            "title": "Community Volunteering",
+            "description": "Actively volunteering in Calgary local projects, including CalgaryCrafters and Calgary Projects Free Developers, to collaborate on community-driven software solutions. We meet weekly to develop real-world applications that support local initiatives.",
+            "title": "Community Volunteering & Local Projects",
             "link": ""
+        },
+        {
+            "description": "Built a fully managed microservices-based application from scratch using .NET and Next.js. Implemented service-to-service communication with RabbitMQ and gRPC, IdentityServer for authentication, and YARP for API gateway management. Successfully tackled version differences while debugging between .NET 8 and .NET 9. Watch the full walkthrough in my video!",
+            "title": "Microservices Architecture with .NET & Next.js",
+            "link": "https://drive.google.com/file/d/1s5wMPh-RgzU1n8HVXSld_0FQCUehjfj1/view?usp=drive_link"
         }
     ],
 
