@@ -334,7 +334,7 @@ export const DATA = {
         {
             "description": "Actively volunteering in Calgary local projects, including CalgaryCrafters and Calgary Projects Free Developers, to collaborate on community-driven software solutions. We meet weekly to develop real-world applications that support local initiatives.",
             "title": "Community Volunteering & Local Projects",
-            "link": ""
+            "link": "https://www.linkedin.com/posts/scuba-seasons_after-a-busy-4-months-im-happy-to-announce-activity-7302400373774852096-vPkb?utm_source=share&utm_medium=member_desktop&rcm=ACoAACX2jCABFQ-EZTuF00NMw96yXCsX78KOcjg"
         },
         {
             "description": "Built a fully managed microservices-based application from scratch using .NET and Next.js. Implemented service-to-service communication with RabbitMQ and gRPC, IdentityServer for authentication, and YARP for API gateway management. Successfully tackled version differences while debugging between .NET 8 and .NET 9. Watch the full walkthrough in my video!",
