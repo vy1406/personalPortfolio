@@ -37,7 +37,7 @@ export default function Education() {
     return (
         <section id="education">
             <Separator text={"Education"} />
-            <div ref={sectionRef} className="w-full flex flex-col items-center gap-8">
+            <div ref={sectionRef} className="w-full flex flex-col items-center gap-8 overflow-x-hidden">
                 {DATA.education.map((edu, index) => (
                     <div
                         key={index}

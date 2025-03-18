@@ -5,13 +5,12 @@
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  
 }
 
 :root {
   --background: #06021d;
   --foreground: #ededed;
-  
+
 }
 /* 
 @media (prefers-color-scheme: dark) {
@@ -25,13 +24,15 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;  
+  overflow-x: hidden;
+
 }
 
 
 #mobilemenu {
   z-index: 1;
   position: absolute;
-  top: 53px;
+  top: 42px;
   height: fit-content
 }
 

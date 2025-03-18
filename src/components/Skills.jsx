@@ -35,7 +35,7 @@ export default function SkillsSection() {
   }, []);
 
   return (
-    <section className="py-8" ref={sectionRef} id="skills">
+    <section className="py-8 overflow-x-hidden" ref={sectionRef} id="skills">
       <Separator text={"Skills"} />
       <div className="w-full flex flex-wrap justify-center gap-4">
       {Object.values(DATA.skills).map((skillCategory) => (
