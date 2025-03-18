@@ -340,6 +340,11 @@ export const DATA = {
             "description": "Built a fully managed microservices-based application from scratch using .NET and Next.js. Implemented service-to-service communication with RabbitMQ and gRPC, IdentityServer for authentication, and YARP for API gateway management. Successfully tackled version differences while debugging between .NET 8 and .NET 9. Watch the full walkthrough in my video!",
             "title": "Microservices Architecture with .NET & Next.js",
             "link": "https://drive.google.com/file/d/1s5wMPh-RgzU1n8HVXSld_0FQCUehjfj1/view?usp=drive_link"
+        },
+        {
+            "description": "Criteria Workplace Insights report on my personality traits, communication style, and work preferences. The report highlights my strengths in problem-solving, adaptability, and collaboration, providing valuable insights for team dynamics and project management.",
+            "title": "Personality Insights Report",
+            "link": "https://www.ondemandassessment.com/workplace-insights/GHecumX0V7wJlZ%2BU79ZYfw/EqXBVWVKrvaVfj%2BM2zQnRw"
         }
     ],
 
