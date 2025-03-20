@@ -50,7 +50,7 @@ export const DATA = {
     },
     experience: [
         {
-            company: "Freelance/Self-Employed",
+            company: "Contract",
             title: "Full Stack Developer",
             startDate: "April 2023",
             endDate: "Present",
@@ -60,7 +60,7 @@ export const DATA = {
         },
         {
             company: "eWave (Contracted to Leading Healthcare Provider)",
-            title: "Front-End Technical Lead",
+            title: "Full Stack Technical Lead",
             startDate: "Sep 2023",
             endDate: "Oct 2024",
             length: "1 yr 1 mo",
@@ -82,7 +82,7 @@ export const DATA = {
             startDate: "Sep 2019",
             endDate: "Apr 2021",
             length: "1 yr 8 mos",
-            description: "Led two projects from inception to delivery, ensuring alignment with client goals and timelines. Developed scalable and maintainable solutions using React, Angular, and Node.js. Mentored junior developers, fostering best coding practices and problem-solving skills. Collaborated with cross-functional teams to enhance UI/UX designs, ensuring customer satisfaction. Researched and implemented performance optimizations that improved app loading times by 25%."
+            description: "Led projects from inception to delivery, ensuring alignment with client goals and timelines. Developed scalable and maintainable solutions using React, Angular, and Node.js. Mentored junior developers, fostering best coding practices and problem-solving skills. Collaborated with cross-functional teams to enhance UI/UX designs, ensuring customer satisfaction. Researched and implemented performance optimizations that improved app loading times by 25%."
         }
     ],
 
