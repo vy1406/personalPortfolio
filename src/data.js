@@ -312,6 +312,11 @@ export const DATA = {
     },
     randoms: [
         {
+            "description": "Medium Article about Monorepo architecture and how Lerna helped us. It covers the benefits of using Lerna for managing multiple packages within a single repository, including improved code sharing, versioning, and dependency management.",
+            "title": "Monorepos & Lerna",
+            "link": "https://vladimir-elistavetski.medium.com/stop-copy-pasting-shared-code-how-lerna-helped-us-build-smarter-monorepos-5cdeac73e4c2"
+        },
+        {
             "description": "Criteria Workplace Insights report on my personality traits, communication style, and work preferences. The report highlights my strengths in problem-solving, adaptability, and collaboration, providing valuable insights for team dynamics and project management.",
             "title": "Personality Insights Report",
             "link": "https://www.ondemandassessment.com/workplace-insights/GHecumX0V7wJlZ%2BU79ZYfw/EqXBVWVKrvaVfj%2BM2zQnRw"
