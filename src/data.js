@@ -50,12 +50,21 @@ export const DATA = {
     },
     experience: [
         {
-            company: "Contract",
+            company: "Contract - Remote",
             title: "Full Stack Developer",
             startDate: "April 2023",
             endDate: "Present",
             length: "Present",
             description: "Consulted on over 10 projects across healthcare, finance, and e-commerce sectors. Implemented secure authentication with MSAL, eliminating password-based logins and enhancing user experience by 50%. Optimized UI responsiveness by 30% by integrating Material UI and Tailwind CSS. Deployed WebRTC solutions to reduce latency by 50%. Utilized AWS services for cloud scalability and efficiency. Integrated Google Analytics to track and analyze user engagement, leading to a 25% increase in data-driven decisions. Conducted workshops on best coding practices and security improvements, enhancing team collaboration and code quality.",
+            isCurrent: true
+        },
+        {
+            company: "ScubaSEAsons - Calgary, AB Hybrid",
+            title: "Full Stack Developer",
+            startDate: "December 2024",
+            endDate: "Present",
+            length: "Present",
+            description: "Led front-end refactoring efforts in a React Native project, introducing a scalable file structure with clear separation of concerns between UI, business logic, and styling. Contributed to feature development and internal tooling, including advanced UI components using ReactDOM.createPortal. Promoted development standards through code reviews and documentation. Investigated and guided the adoption of a monorepo architecture using Lerna to streamline development workflows and collaboration. Supported full-cycle development and established scalable architecture practices.",
             isCurrent: true
         },
         {
