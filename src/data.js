@@ -29,7 +29,7 @@ import Azure from "./assets/microsoft-azure.svg";
 import Git from "./assets/git-icon.svg";
 
 export const DATA = {
-    aboutMe: "AWS Certified | Full-stack developer skilled in seamless user experiences, efficient backend systems, & cloud integration. Proficient in React & Node.js. Delivering solutions that drive growth & elevate platforms.",
+    aboutMe: "AWS Certified | Full-stack developer skilled in seamless user experiences, efficient backend systems, & cloud integration. Holds a Bachelor's degree in Computer Science. Proficient in React & Node.js. Delivering solutions that drive growth & elevate platforms.",
     welcomeMsg: "Vladimir Elisavetsky",
     roles: [
         "Debugger of Bugs Nobody Can Reproduce",
