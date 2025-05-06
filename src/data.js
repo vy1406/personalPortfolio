@@ -325,11 +325,11 @@ export const DATA = {
             "title": "Monorepos & Lerna",
             "link": "https://vladimir-elistavetski.medium.com/stop-copy-pasting-shared-code-how-lerna-helped-us-build-smarter-monorepos-5cdeac73e4c2"
         },
-        {
-            "description": "Criteria Workplace Insights report on my personality traits, communication style, and work preferences. The report highlights my strengths in problem-solving, adaptability, and collaboration, providing valuable insights for team dynamics and project management.",
-            "title": "Personality Insights Report",
-            "link": "https://www.ondemandassessment.com/workplace-insights/GHecumX0V7wJlZ%2BU79ZYfw/EqXBVWVKrvaVfj%2BM2zQnRw"
-        },
+        // {
+        //     "description": "Criteria Workplace Insights report on my personality traits, communication style, and work preferences. The report highlights my strengths in problem-solving, adaptability, and collaboration, providing valuable insights for team dynamics and project management.",
+        //     "title": "Personality Insights Report",
+        //     "link": "https://www.ondemandassessment.com/workplace-insights/GHecumX0V7wJlZ%2BU79ZYfw/EqXBVWVKrvaVfj%2BM2zQnRw"
+        // },
         {
             "description": "Designed a reusable template for uploading small and large files to AWS S3. The template handles progress bar updates, chunked uploads, and serverless deployment, ensuring scalability and simplicity. Read the full walkthrough in my Medium article!",
             "title": "AWS S3 Upload Template",
