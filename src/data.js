@@ -340,11 +340,11 @@ export const DATA = {
             "title": "Mentorship",
             "link": ""
         },
-        {
-            "description": "Developed OWP Statistics (owp-statistics.vercel.app), a mobile-first application built with Next.js, designed to help new immigrants monitor their applications. The app garnered 150 active users within weeks of launch.",
-            "title": "OWP Statistics Project",
-            "link": "https://owp-statistics.vercel.app"
-        },
+        // {
+        //     "description": "Developed OWP Statistics (owp-statistics.vercel.app), a mobile-first application built with Next.js, designed to help new immigrants monitor their applications. The app garnered 150 active users within weeks of launch.",
+        //     "title": "OWP Statistics Project",
+        //     "link": "https://owp-statistics.vercel.app"
+        // },
         {
             "description": "Completed a framework-agnostic event-handling template for microfrontend architectures, simplifying communication between React, Vue, and Angular using a custom EventBus and other browser APIs. This lightweight, error-resilient approach includes an ErrorBoundary for remote failures. Check out the full implementation in my Medium article!",
             "title": "Simplifying Microfrontend Events",
