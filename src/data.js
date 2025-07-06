@@ -50,22 +50,31 @@ export const DATA = {
     },
     experience: [
         {
+            company: "Lumen Technologies - Calgary, AB Remote",
+            title: "Lead Software Developer",
+            startDate: "June 2025",
+            endDate: "Present",
+            length: "Present",
+            description: "Driving a large-scale refactor of the NaaS platform by championing a Library-Driven Development (LDD) approach. Collaborating across functions to modularize legacy services, improve architectural coherence, and implement domain-aligned libraries using Golang, Vue, and serverless principles. Leading by example in documentation, code quality, and system resilience to support sustainable, high-velocity delivery.",
+            isCurrent: true
+        },
+        {
             company: "ScubaSEAsons - Calgary, AB Hybrid",
             title: "Full Stack Developer",
             startDate: "December 2024",
-            endDate: "Present",
-            length: "Present",
+            endDate: "June 2025",
+            length: "6 mos",
             description: "Led front-end refactoring efforts in a React Native project, introducing a scalable file structure with clear separation of concerns between UI, business logic, and styling. Contributed to feature development and internal tooling, including advanced UI components using ReactDOM.createPortal. Promoted development standards through code reviews and documentation. Investigated and guided the adoption of a monorepo architecture using Lerna to streamline development workflows and collaboration. Supported full-cycle development and established scalable architecture practices.",
-            isCurrent: true
+            isCurrent: false
         },
         {
             company: "Contract - Remote",
             title: "Full Stack Developer",
             startDate: "April 2023",
-            endDate: "Present",
-            length: "Present",
+            endDate: "June 2025",
+            length: "2 yrs 2 mos",
             description: "Consulted on over 10 projects across healthcare, finance, and e-commerce sectors. Implemented secure authentication with MSAL, eliminating password-based logins and enhancing user experience by 50%. Optimized UI responsiveness by 30% by integrating Material UI and Tailwind CSS. Deployed WebRTC solutions to reduce latency by 50%. Utilized AWS services for cloud scalability and efficiency. Integrated Google Analytics to track and analyze user engagement, leading to a 25% increase in data-driven decisions. Conducted workshops on best coding practices and security improvements, enhancing team collaboration and code quality.",
-            isCurrent: true
+            isCurrent: false
         },
         {
             company: "eWave (Contracted to Leading Healthcare Provider)",
@@ -99,6 +108,10 @@ export const DATA = {
         {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-0b7dd7d2-774a-4f02-a60c-3e8ab4608fe6.pdf",
             "title": "NGINX: Intro"
+        },
+        {
+            "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-99bd82a6-fae7-4b41-ac35-e47cd82f0b0d.pdf",
+            "title": "Understanding TypeScript"
         },
         {
             "certificateLink": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-60ef4236-ea00-404a-9dfb-60bc78c7ac98.pdf",
@@ -334,6 +347,11 @@ export const DATA = {
             "description": "Designed a reusable template for uploading small and large files to AWS S3. The template handles progress bar updates, chunked uploads, and serverless deployment, ensuring scalability and simplicity. Read the full walkthrough in my Medium article!",
             "title": "AWS S3 Upload Template",
             "link": "https://vladimir-elistavetski.medium.com/uploading-small-and-large-files-to-aws-s3-a-walkthrough-c10393e53ac1"
+        },
+        {
+            "description": "A comprehensive guide to TypeScript tips and tricks, covering advanced features, best practices, and performance optimizations. This guide is designed to help developers enhance their TypeScript skills and write more efficient code.",
+            "title": "The Go-To TS Tips & Tricks Guide",
+            "link": "https://vladimir-elistavetski.medium.com/the-go-to-ts-tips-tricks-guide-6a6cac59bfa0"
         },
         {
             "description": "Mentored seven aspiring developers, guiding them from foundational learning to securing professional roles. Helped them gain hands-on experience and build real-world projects.",
